@@ -1,0 +1,95 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+    html {
+      height: 100%;
+    }
+    body {
+       width: 800px;
+       height: 100%;
+    }
+
+    header {
+        background-image:url('space2.jpeg');
+        padding: 5px;
+        padding-right: 20px;
+        margin: 40px;
+        margin-bottom: 0px;
+        color: white;
+        font-size:30px;
+        font-family: georgia;
+        display: block;
+        text-align: center;
+        width: 140%;
+    }
+    nav {
+        background-color: white;
+        float: left;
+        width: 140%;
+        text-align: center;
+    }
+    nav ul {
+        /*padding: ;*/
+        /*border-bottom: ;*/
+        list-style-type: none;
+        display: inline-block;
+    }
+    nav li {
+        display: inline-block;
+        padding: 0px;
+    }
+    nav li a {
+        display: block;
+        height: 25px;
+        padding: 10px 5px 15px 15px;
+        vertical-align: center;
+        font-size: 30px;
+        text-align: center;
+        color: black;
+        font-style: oblique;
+    }
+    a {
+    }
+    section {
+        width: 140%;
+        display: inline-block;
+        float: left;
+        font-size: 25px;
+        font-family: georgia;
+        text-align: center;
+        border: solid;
+        padding: 5px;
+        padding-right: 20px;
+        padding-left: 10px;
+        margin-left: 32px;
+        margin-bottom: 20px;
+        color: #2c0b2d;
+    }
+    article {
+        margin-left: 70px;
+        display: block;
+        font-size: 18px;
+    }
+    img {
+        max-width: 100px;
+        width: 140%;
+        display: inline-block;
+        text-align: center;
+    }
+    aside {
+        width: 800px;
+        display: inline-block;
+        background-color:;
+        min-height: 100%;
+    }
+    aside ul {
+        list-style-type: georgian;
+    }
+    footer {
+        width: 790px;
+        background-color:
+        color:;
+        clear: both;
+        display: block;
+    }

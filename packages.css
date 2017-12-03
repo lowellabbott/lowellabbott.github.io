@@ -1,0 +1,88 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+    html {
+      height: 100%;
+      width: 100%;
+    }
+    body {
+       width: 800px;
+       height: 100%;
+    }
+
+    header {
+        background: url(spaceedited.jpg);
+        width: 140%;
+        padding: 5px;
+        font-size: 35px;
+        display: block;
+        font-family: Helvetica;
+        color: white;
+        margin-bottom: 0px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-bottom: 5px solid white;
+        text-align: center;
+    }
+    nav {
+        float: left;
+        width: 140%;
+        font-size: 25px;
+        font-family: georgia;
+        background-color: ;
+        padding: 0;
+    }
+    nav ul {
+        float: left;
+        list-style-type: none;
+        width: 140%;
+        margin-left: 30%;
+        margin-right: 30%;
+        padding: 0
+        color: black;
+    }
+    nav li {
+        float: left;
+    }
+    nav li a {
+        display: block;
+        padding: 12px 18px 8px 18px;
+        vertical-align: middle;
+        text-align: center;
+        color: black;
+    }
+    a {
+        color: white;
+    }
+    section {
+        font-size: 20px;
+        width: 100%;
+        display: center;
+        text-align: left;
+        background-color: white;
+    }
+    article {
+        font-size: 15px;
+        text-align: left;
+    }
+    }
+    aside {
+        width: 17%;
+        display: inline-block;
+        background-color:;
+        padding:;
+        min-height: 100%;
+        border: 1px solid blue;
+    }
+    aside ul {
+        list-style-type: none;
+    }
+    footer {
+        width: 100%;
+        heigt: 5px;
+        background-color: black;
+        color:;
+        clear: both;
+        display: block;
+    }
